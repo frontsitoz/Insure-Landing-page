@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --DarkViolet: hsl(256, 26%, 20%);
+    --GrayishBlue: hsl(216, 30%, 68%);
+--VeryDarkViolet: hsl(270, 9%, 17%);
+--DarkGrayishViolet: hsl(273, 4%, 51%);
+--VeryLightGray: hsl(0, 0%, 98%);
+--font1: 'DM Serif Display', serif;
+--padding-container: 80px 0;
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+
