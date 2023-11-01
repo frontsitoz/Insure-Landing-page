@@ -10,7 +10,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap" rel="stylesheet">
   <title>Insure landing page</title>
-
 </head>
 <body>
 
@@ -25,16 +24,20 @@
 <img src="./images/logo.svg" alt="logo" class="nav__logo">
 </figure>
 
-<div class="nav__links">
-  <a href="" class="nav__link">  How we work</a>
-  <a href="" class="nav__link">  Blog</a>
-  <a href="" class="nav__link">  Account</a>
-  <a href="" class="nav__link--cta">  View plans</a>
+<div class="nav__links" id="open">
+  <a href="" class="nav__link"> How we work</a>
+  <a href="" class="nav__link"> Blog</a>
+  <a href="" class="nav__link"> Account</a>
+  <a href="" class="nav__link nav__link--cta">  View plans</a>
 </div>
 
-<figure class="nav__hamburguer">
-  <img src="./images/icon-hamburger.svg" alt="image-icon-hamburguer" class="nav__icon">
-</figure>
+<a href="#open" class="nav__hamburguer">
+  <img src="./images/icon-hamburger.svg" alt="image-icon-hamburguer" class="nav__icon nav__hamburguer">
+</a>
+
+<a href="#" class="nav__hamburguer nav__hamburguer--last">
+  <img src="./images/icon-close.svg" alt="image-icon-hamburguer" class="nav__icon nav__hamburguer">
+</a>
 
     </div>
 
@@ -44,7 +47,7 @@
 
 <div class="hero__texts">
 
-  <h1 class="title">  Humanizing your insurance.</h1>
+  <h2 class="title">  Humanizing your insurance.</h2>
 
   <p class="hero__paragraph">
     Get your life insurance coverage easier and faster. We blend our expertise 
@@ -117,62 +120,132 @@
 </div>
 
 </section>
-<div class="hero__texts">
 
-  <h1 class="title">  Humanizing your insurance.</h1>
+<section class="find">
 
-  <p class="hero__paragraph">
-    Get your life insurance coverage easier and faster. We blend our expertise 
-    and technology to help you find the plan that’s right for you. Ensure you 
-    and your loved ones are protected.</p>
+  <div class="find__container container">
+  
+    <h2 class="title title--find"> Find out more about how we work</h2>
+  
+  
+  <a href="#" class="cta">  How we work</a>
+  
+  </div>
 
-<a href="#" class="cta">View plans</a>
+</section>
 
-</div>
 
 </main>
   
+<footer class="footer">
 
-  <!-- 
+  <div class="footer__container container">
 
+<section class="footer__brand">
 
+  <figure class="footer__picture">
+    <img src="./images/logo.svg" alt="" class="footer__logo">
+  </figure>
 
-  Find out more about how we work
+  <div class="footer__media">
 
-  How we work
+<a href="#" class="footer__social">
+  <img src="./images/icon-facebook.svg" alt="" class="footer__icon">
+</a>
 
-  Our company
+<a href="#" class="footer__social">
+  <img src="./images/icon-twitter.svg" alt="" class="footer__icon">
+</a>
 
-  How we work
-  Why Insure?
-  View plans
-  Reviews
+<a href="#" class="footer__social">
+  <img src="./images/icon-pinterest.svg" alt="" class="footer__icon">
+</a>
 
-  Help me
+<a href="#" class="footer__social">
+  <img src="./images/icon-instagram.svg" alt="" class="footer__icon">
+</a>
 
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
-
-  Contact
-
-  Sales
-  Support
-  Live chat
-
-  Others
-
-  Careers
-  Press
-  Licenses
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
   </div>
+</section>
 
-  -->
+<section class="footer__navigation">
+
+
+<nav class="footer__nav ">
+
+  <a href="#" class="footer__link footer__link--first">Our company
+  </a>
+  <a href="#" class="footer__link">
+  How we work
+  </a>
+  <a href="#" class="footer__link">
+  Why Insure?
+ </a>
+  <a href="#" class="footer__link">
+  View plans
+ </a>
+  <a href="#" class="footer__link">
+  Reviews</a>
+  
+  </nav>
+
+  <nav class="footer__nav">
+
+    <a href="#" class="footer__link footer__link--first">  Help me
+    </a>
+    <a href="#" class="footer__link"> FAQ
+    </a>
+    <a href="#" class="footer__link">Terms of use
+   
+   </a>
+    <a href="#" class="footer__link">
+      Privacy policy
+   </a>
+    <a href="#" class="footer__link">
+      Cookies</a>
+    
+    </nav>
+
+
+    <nav class="footer__nav">
+
+      <a href="#" class="footer__link footer__link--first">   Contact
+      </a>
+      <a href="#" class="footer__link">   Sales
+      </a>
+      <a href="#" class="footer__link"> Support
+     
+     </a>
+      <a href="#" class="footer__link">
+        Live chat
+     </a>
+      
+      </nav>
+
+      <nav class="footer__nav">
+
+        <a href="#" class="footer__link footer__link--first">   Others
+        </a>
+        <a href="#" class="footer__link">   Careers
+        </a>
+        <a href="#" class="footer__link"> Support
+       
+       </a>
+        <a href="#" class="footer__link">
+          Press
+       </a>
+
+       <a href="#" class="footer__link">
+        Licenses
+
+     </a>
+        </nav>
+</section>
+
+
+  </div>
+</footer>
+
+
 </body>
 </html>
